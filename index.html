@@ -1,37 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ervas na Umbanda</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herbanário Sagrado - 1.167 Ervas</title>
+    <style>
+        :root { --verde: #1b5e20; --ouro: #fbbf24; --fundo: #f8f9fa; }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--fundo); color: #333; }
+        header { background: var(--verde); color: white; padding: 40px 20px; text-align: center; border-bottom: 5px solid var(--ouro); }
+        .intro-box { max-width: 800px; margin: 20px auto; background: white; padding: 25px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .busca-container { sticky; top: 0; background: var(--verde); padding: 20px; text-align: center; z-index: 1000; }
+        #inputBusca { width: 80%; max-width: 600px; padding: 15px; border-radius: 30px; border: none; font-size: 1rem; }
+        .grid-ervas { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; padding: 20px; max-width: 1200px; margin: 0 auto; }
+        .card { background: white; border-radius: 15px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border-left: 5px solid var(--ouro); }
+        .orixa-tag { background: var(--ouro); color: black; padding: 3px 10px; border-radius: 5px; font-size: 0.7rem; font-weight: bold; text-transform: uppercase; }
+        h3 { color: var(--verde); margin: 10px 0; }
+        .label { font-weight: bold; color: var(--verde); display: block; margin-top: 10px; }
+    </style>
 </head>
-
 <body>
 
 <header>
-<h1>🌿 Ervas na Umbanda</h1>
-<p>Guia Completo de 1167 Ervas Sagradas</p>
+    <h1>HERBANÁRIO SAGRADO</h1>
+    <p>Enciclopédia Digital de 1.167 Ervas</p>
 </header>
 
-<section class="search-container">
-<input type="text" id="searchInput" placeholder="Buscar erva pelo nome...">
+<section class="intro-box">
+    <h2>O Poder das Ervas na Umbanda</h2>
+    <p>As ervas são o Axé da natureza. Elas dividem-se em:</p>
+    <ul>
+        <li><strong>Quentes:</strong> Limpeza pesada e descarrego.</li>
+        <li><strong>Mornas:</strong> Equilíbrio e restauração da aura.</li>
+        <li><strong>Frias:</strong> Paz, intuição e conexão espiritual.</li>
+    </ul>
 </section>
 
-<section class="orixas-grid">
-<a href="orixas/oxala.html" class="card">🤍 Oxalá</a>
-<a href="orixas/iemanja.html" class="card">🌊 Iemanjá</a>
-<a href="orixas/xango.html" class="card">⚡ Xangô</a>
-<a href="orixas/ogun.html" class="card">🗡️ Ogum</a>
-<a href="orixas/oxum.html" class="card">💛 Oxum</a>
-<a href="orixas/oxossi.html" class="card">🏹 Oxóssi</a>
-<a href="orixas/iansa.html" class="card">🌪️ Iansã</a>
-<a href="orixas/nana.html" class="card">🌿 Nanã</a>
-<a href="orixas/obaluae.html" class="card">🔥 Obaluaiê</a>
-<a href="orixas/ossae.html" class="card">🌱 Ossãe</a>
-</section>
+<div class="busca-container">
+    <input type="text" id="inputBusca" placeholder="Pesquise por erva ou Orixá...">
+</div>
 
-<script src="js/search.js"></script>
+<main class="grid-ervas" id="vitrine"></main>
+
+<script>
+    // O site vai procurar o ficheiro ervas.json que você deve criar também
+    fetch('ervas.json')
+        .then(response => response.json())
+        .then(dados => {
+            const vitrine = document.getElementById('vitrine');
+            const busca = document.getElementById('inputBusca');
+
+            function mostrar(lista) {
+                vitrine.innerHTML = lista.map(erva => `
+                    <div class="card">
+                        <span class="orixa-tag">${erva.orixa}</span>
+                        <h3>${erva.nome}</h3>
+                        <p><i>${erva.cientifico}</i></p>
+                        <span class="label">Espiritual:</span> ${erva.espiritual}
+                        <span class="label">Medicinal:</span> ${erva.medicina}
+                        <p><small><strong>Aviso:</strong> Evitar em gestantes e lactantes.</small></p>
+                    </div>
+                `).join('');
+            }
+
+            mostrar(dados);
+
+            busca.addEventListener('input', (e) => {
+                const termo = e.target.value.toLowerCase();
+                const filtradas = dados.filter(erva => 
+                    erva.nome.toLowerCase().includes(termo) || 
+                    erva.orixa.toLowerCase().includes(termo)
+                );
+                mostrar(filtradas);
+            });
+        })
+        .catch(err => console.error("Erro ao carregar ervas.json. Certifique-se de que o ficheiro existe no GitHub."));
+</script>
 
 </body>
 </html>

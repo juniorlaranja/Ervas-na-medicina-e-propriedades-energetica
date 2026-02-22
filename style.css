@@ -1,0 +1,55 @@
+body {
+font-family: Arial;
+margin: 0;
+background: #f4f4f4;
+}
+
+header {
+background: #2e7d32;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+padding: 20px;
+}
+
+.card {
+background: white;
+padding: 15px 25px;
+text-decoration: none;
+color: #2e7d32;
+font-weight: bold;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+table {
+width: 95%;
+margin: 20px auto;
+border-collapse: collapse;
+background: white;
+}
+
+th, td {
+border: 1px solid #ddd;
+padding: 8px;
+font-size: 14px;
+}
+
+th {
+background: #4caf50;
+color: white;
+}
+
+input {
+display: block;
+margin: 20px auto;
+padding: 10px;
+width: 60%;
+}

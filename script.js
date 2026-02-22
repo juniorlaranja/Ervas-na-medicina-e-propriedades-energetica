@@ -53,12 +53,20 @@ cacheOrixas[nome] = filtradas;
 
 renderEnciclopedia(filtradas);
 
-document.getElementById("busca").addEventListener("keyup", function() {
-let texto = this.value.toLowerCase();
-let resultado = cacheOrixas[nome].filter(e =>
-e.popular.toLowerCase().includes(texto) ||
-e.cientifico.toLowerCase().includes(texto)
-);
+container.innerHTML += `
+<div class="erva-card">
+<img id="img-${e.cientifico}" class="erva-img" src="imagens/placeholder.jpg">
+<h3>${e.popular}</h3>
+
+${e.classificacao ? `<span class="badge badge-${e.classificacao.toLowerCase()}">${e.classificacao}</span>` : ""}
+
+<p><strong>Científico:</strong> ${e.cientifico}</p>
+<p><strong>Medicinal:</strong> ${e.medicinal}</p>
+<p><strong>Espiritual:</strong> ${e.espiritual}</p>
+</div>
+`;
+
+buscarImagemWikipedia(e.cientifico);
 renderEnciclopedia(resultado);
 });
 }

@@ -121,3 +121,52 @@ transform:scale(1.02);
 font-size:22px;
 }
 }
+/* LINKS MENU */
+.topnav a {
+color:white;
+margin-right:15px;
+text-decoration:none;
+font-size:14px;
+}
+
+.topnav a:hover {
+text-decoration:underline;
+}
+
+/* INTRODUÇÃO */
+.introducao {
+max-width:900px;
+margin:40px auto;
+padding:25px;
+background:white;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,0.2);
+line-height:1.6;
+text-align:center;
+}
+
+.btn {
+display:inline-block;
+margin-top:15px;
+padding:10px 20px;
+background:#1b5e20;
+color:white;
+border-radius:30px;
+text-decoration:none;
+}
+
+/* PÁGINAS DE TEXTO */
+.pagina-texto {
+max-width:900px;
+margin:40px auto;
+padding:25px;
+background:white;
+border-radius:12px;
+box-shadow:0 4px 12px rgba(0,0,0,0.2);
+line-height:1.7;
+}
+
+body.dark .pagina-texto,
+body.dark .introducao {
+background:#1e1e1e;
+}

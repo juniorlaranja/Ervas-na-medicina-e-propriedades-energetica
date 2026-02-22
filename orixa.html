@@ -8,24 +8,15 @@
 </head>
 <body>
 
-<header>
-<h1 id="titulo-orixa"></h1>
+<nav class="topnav">
 <a href="./index.html">⬅ Voltar</a>
-</header>
+<h2 id="titulo-orixa"></h2>
+<button id="toggleDark">🌙</button>
+</nav>
 
 <input type="text" id="busca" placeholder="Buscar erva...">
 
-<table>
-<thead>
-<tr>
-<th>Nome Popular</th>
-<th>Nome Científico</th>
-<th>Medicinal</th>
-<th>Espiritual</th>
-</tr>
-</thead>
-<tbody id="tabela"></tbody>
-</table>
+<div id="lista-ervas" class="enciclopedia"></div>
 
 <script src="script.js"></script>
 </body>

@@ -1,172 +1,154 @@
+/* RESET */
 * {
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:'Segoe UI',sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', sans-serif;
 }
 
 body {
-background:#f4f4f4;
-color:#222;
-transition:0.3s;
+background: #f4f6f8;
+color: #222;
+line-height: 1.6;
+}
+
+/* NAVBAR */
+.topnav {
+background: #1f2937;
+color: white;
+padding: 15px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: sticky;
+top: 0;
+z-index: 1000;
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.topnav h2 {
+font-size: 18px;
+}
+
+.topnav button {
+background: none;
+border: none;
+color: white;
+font-size: 18px;
+cursor: pointer;
+}
+
+/* MENU PRINCIPAL */
+.menu-principal {
+text-align: center;
+margin: 25px 0;
+}
+
+.botao-menu {
+display: inline-block;
+padding: 12px 30px;
+background: linear-gradient(135deg, #2e8b57, #1f5e3d);
+color: white;
+text-decoration: none;
+font-weight: bold;
+border-radius: 12px;
+transition: 0.3s;
+box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.botao-menu:hover {
+transform: translateY(-3px);
+box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* CARDS ORIXÁS */
+#lista-orixas {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+
+.card {
+background: white;
+padding: 20px;
+border-radius: 15px;
+text-align: center;
+text-decoration: none;
+color: #222;
+font-weight: bold;
+box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+transition: 0.3s;
+}
+
+.card:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* ERVAS */
+#lista-ervas {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 20px;
+padding: 20px;
+}
+
+.erva-card {
+background: white;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+transition: 0.3s;
+}
+
+.erva-card:hover {
+transform: translateY(-4px);
+box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.erva-card h3 {
+margin-bottom: 10px;
+color: #2e8b57;
+}
+
+/* BADGES */
+.badge {
+display: inline-block;
+padding: 5px 10px;
+border-radius: 8px;
+font-size: 12px;
+font-weight: bold;
+margin-bottom: 8px;
+}
+
+.badge-quente {
+background: #ff6b6b;
+color: white;
+}
+
+.badge-morna {
+background: #f7b731;
+color: white;
+}
+
+.badge-fria {
+background: #4dabf7;
+color: white;
 }
 
 /* MODO ESCURO */
 body.dark {
-background:#121212;
-color:#eee;
+background: #111827;
+color: #f3f4f6;
 }
 
 body.dark .card,
 body.dark .erva-card {
-background:#1e1e1e;
-color:#eee;
+background: #1f2937;
+color: #f3f4f6;
 }
 
-/* NAV FIXO */
-.topnav {
-position:sticky;
-top:0;
-background:#1b5e20;
-color:white;
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:15px 20px;
-z-index:1000;
-}
-
-.topnav button {
-background:none;
-border:none;
-color:white;
-font-size:18px;
-cursor:pointer;
-}
-
-/* HERO */
-.hero {
-text-align:center;
-padding:40px 20px;
-background:linear-gradient(135deg,#2e7d32,#66bb6a);
-color:white;
-}
-
-/* GRID */
-.container {
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-gap:20px;
-padding:30px;
-max-width:1200px;
-margin:auto;
-}
-
-/* CARDS ORIXA */
-.card {
-background:white;
-padding:25px;
-border-radius:14px;
-text-align:center;
-text-decoration:none;
-color:#1b5e20;
-box-shadow:0 6px 15px rgba(0,0,0,0.2);
-transition:0.3s;
-}
-
-.card:hover {
-transform:translateY(-6px);
-}
-
-.orixa-icon {
-font-size:28px;
-margin-bottom:10px;
-}
-
-/* BUSCA */
-input {
-display:block;
-margin:20px auto;
-padding:14px;
-width:90%;
-max-width:500px;
-border-radius:30px;
-border:none;
-box-shadow:0 4px 10px rgba(0,0,0,0.2);
-}
-
-/* ENCICLOPÉDIA */
-.enciclopedia {
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:20px;
-padding:20px;
-}
-
-.erva-card {
-background:white;
-padding:20px;
-border-radius:12px;
-box-shadow:0 4px 12px rgba(0,0,0,0.2);
-transition:0.3s;
-}
-
-.erva-card:hover {
-transform:scale(1.02);
-}
-
-/* RESPONSIVO */
-@media(max-width:768px){
-.hero h1{
-font-size:22px;
-}
-}
-/* LINKS MENU */
-.topnav a {
-color:white;
-margin-right:15px;
-text-decoration:none;
-font-size:14px;
-}
-
-.topnav a:hover {
-text-decoration:underline;
-}
-
-/* INTRODUÇÃO */
-.introducao {
-max-width:900px;
-margin:40px auto;
-padding:25px;
-background:white;
-border-radius:12px;
-box-shadow:0 4px 12px rgba(0,0,0,0.2);
-line-height:1.6;
-text-align:center;
-}
-
-.btn {
-display:inline-block;
-margin-top:15px;
-padding:10px 20px;
-background:#1b5e20;
-color:white;
-border-radius:30px;
-text-decoration:none;
-}
-
-/* PÁGINAS DE TEXTO */
-.pagina-texto {
-max-width:900px;
-margin:40px auto;
-padding:25px;
-background:white;
-border-radius:12px;
-box-shadow:0 4px 12px rgba(0,0,0,0.2);
-line-height:1.7;
-}
-
-body.dark .pagina-texto,
-body.dark .introducao {
-background:#1e1e1e;
+body.dark .topnav {
+background: #0f172a;
 }

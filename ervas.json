@@ -1,13 +1,6 @@
 [
   {
     "orixa": "Oxala",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
-  },
-  {
-    "orixa": "Oxala",
     "popular": "Abacateiro",
     "cientifico": "Persea americana",
     "medicinal": "Nutritivo, emoliente, cicatrizante",
@@ -981,13 +974,6 @@
   },
   {
     "orixa": "Oxala",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
-  },
-  {
-    "orixa": "Oxala",
     "popular": "Rosa",
     "cientifico": "Rosa centifolia",
     "medicinal": "Astringente, tonica, aromatica",
@@ -1027,13 +1013,6 @@
     "cientifico": "Santalum album",
     "medicinal": "Antisseptico, aromatico, calmante",
     "espiritual": "Meditacao, espiritualidade, elevacao"
-  },
-  {
-    "orixa": "Oxala",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
   },
   {
     "orixa": "Oxala",
@@ -1079,13 +1058,6 @@
   },
   {
     "orixa": "Oxala",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
-  },
-  {
-    "orixa": "Oxala",
     "popular": "Tilo",
     "cientifico": "Tilia cordata",
     "medicinal": "Calmante, sudorifico, diuretico",
@@ -1125,14 +1097,7 @@
     "cientifico": "Verbena officinalis",
     "medicinal": "Calmante, digestiva, emenagoga",
     "espiritual": "Protecao, amor, purificacao"
-  },
-  {
-    "orixa": "Oxala",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
-  },
+  }
   {
     "orixa": "Oxala",
     "popular": "Vick",
@@ -1146,13 +1111,6 @@
     "cientifico": "Hibiscus sabdariffa",
     "medicinal": "Diuretica, hipotensora, refrescante",
     "espiritual": "Amor, paixao, vitalidade"
-  },
-  {
-    "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
   },
   {
     "orixa": "Iemanja",
@@ -1198,13 +1156,6 @@
   },
   {
     "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
-  },
-  {
-    "orixa": "Iemanja",
     "popular": "Alecrim-das-boticas",
     "cientifico": "Lippia origanoides",
     "medicinal": "Antisseptico, digestivo",
@@ -1244,13 +1195,6 @@
     "cientifico": "Gossypium hirsutum",
     "medicinal": "Emoliente, adstringente",
     "espiritual": "Macumba de amor, docura, atracao"
-  },
-  {
-    "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
   },
   {
     "orixa": "Iemanja",
@@ -1296,13 +1240,6 @@
   },
   {
     "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
-  },
-  {
-    "orixa": "Iemanja",
     "popular": "Babosa",
     "cientifico": "Aloe vera",
     "medicinal": "Cicatrizante, emoliente, digestiva",
@@ -1342,13 +1279,6 @@
     "cientifico": "Portulaca oleracea",
     "medicinal": "Anti-inflamatoria, refrescante",
     "espiritual": "Resiliencia, adaptacao, vida"
-  },
-  {
-    "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
   },
   {
     "orixa": "Iemanja",
@@ -1394,13 +1324,6 @@
   },
   {
     "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
-  },
-  {
-    "orixa": "Iemanja",
     "popular": "Camellia",
     "cientifico": "Camellia japonica",
     "medicinal": "Aromatica, ornamental",
@@ -1440,13 +1363,6 @@
     "cientifico": "Cymbopogon citratus",
     "medicinal": "Calmante, digestivo, antiespasmodico",
     "espiritual": "Limpeza, tranquilidade, serenidade"
-  },
-  {
-    "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
   },
   {
     "orixa": "Iemanja",
@@ -1492,13 +1408,6 @@
   },
   {
     "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
-  },
-  {
-    "orixa": "Iemanja",
     "popular": "Cha-verde",
     "cientifico": "Camellia sinensis",
     "medicinal": "Antioxidante, estimulante",
@@ -1538,13 +1447,6 @@
     "cientifico": "Cuminum cyminum",
     "medicinal": "Carminativo, digestivo",
     "espiritual": "Fidelidade, protecao, afastamento"
-  },
-  {
-    "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
   },
   {
     "orixa": "Iemanja",
@@ -1590,13 +1492,6 @@
   },
   {
     "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
-  },
-  {
-    "orixa": "Iemanja",
     "popular": "Espinheira-santa",
     "cientifico": "Maytenus ilicifolia",
     "medicinal": "Digestiva, antiulcera, hepatoprotetora",
@@ -1636,13 +1531,6 @@
     "cientifico": "Aloysia citrodora",
     "medicinal": "Calmante, digestiva, antiespasmodica",
     "espiritual": "Amor, atracao, docura"
-  },
-  {
-    "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
   },
   {
     "orixa": "Iemanja",
@@ -1688,13 +1576,6 @@
   },
   {
     "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
-  },
-  {
-    "orixa": "Iemanja",
     "popular": "Girassol",
     "cientifico": "Helianthus annuus",
     "medicinal": "Diuretico, expectorante",
@@ -1734,13 +1615,6 @@
     "cientifico": "Mentha piperita",
     "medicinal": "Digestiva, analgesica, antiespasmodica",
     "espiritual": "Energia, claridade, forca"
-  },
-  {
-    "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
   },
   {
     "orixa": "Iemanja",
@@ -1786,13 +1660,6 @@
   },
   {
     "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
-  },
-  {
-    "orixa": "Iemanja",
     "popular": "Jurubeba",
     "cientifico": "Solanum paniculatum",
     "medicinal": "Digestiva, hepatoprotetora, coleretica",
@@ -1832,13 +1699,6 @@
     "cientifico": "Linum usitatissimum",
     "medicinal": "Emoliente, laxante, anti-inflamatoria",
     "espiritual": "Suavidade, protecao, nutricao"
-  },
-  {
-    "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
   },
   {
     "orixa": "Iemanja",
@@ -1884,13 +1744,6 @@
   },
   {
     "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
-  },
-  {
-    "orixa": "Iemanja",
     "popular": "Mamoeiro",
     "cientifico": "Carica papaya",
     "medicinal": "Digestivo, vermifugo, anti-inflamatoria",
@@ -1930,13 +1783,6 @@
     "cientifico": "Cydonia oblonga",
     "medicinal": "Adstringente, anti-diuretica",
     "espiritual": "Fidelidade, amor duradouro"
-  },
-  {
-    "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
   },
   {
     "orixa": "Iemanja",
@@ -1982,13 +1828,6 @@
   },
   {
     "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
-  },
-  {
-    "orixa": "Iemanja",
     "popular": "Mulungu",
     "cientifico": "Erythrina mulungu",
     "medicinal": "Calmante, ansiolitico, sedativo",
@@ -2028,13 +1867,6 @@
     "cientifico": "Crotalaria spectabilis",
     "medicinal": "Anti-inflamatoria, analgesica",
     "espiritual": "Escuta, intuicao, percepcao"
-  },
-  {
-    "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
   },
   {
     "orixa": "Iemanja",
@@ -2080,7 +1912,7 @@
   },
   {
     "orixa": "Iemanja",
-    "popular": "Nome Popular",
+    "popuar": "Nome Popular",
     "cientifico": "Nome Cientifico",
     "medicinal": "Propriedades Medicinais",
     "espiritual": "Propriedades Espirituais"
@@ -2129,13 +1961,6 @@
   },
   {
     "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
-  },
-  {
-    "orixa": "Iemanja",
     "popular": "RomÆ",
     "cientifico": "Punica granatum",
     "medicinal": "Adstringente, vermifuga, depurativa",
@@ -2175,13 +2000,6 @@
     "cientifico": "Polypodium vulgare",
     "medicinal": "Expectorante, diuretico, depurativo",
     "espiritual": "Protecao, invisibilidade"
-  },
-  {
-    "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
   },
   {
     "orixa": "Iemanja",
@@ -2227,13 +2045,6 @@
   },
   {
     "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
-  },
-  {
-    "orixa": "Iemanja",
     "popular": "Tansagem",
     "cientifico": "Plantago tomentosa",
     "medicinal": "Emoliente, anti-inflamatoria",
@@ -2276,13 +2087,6 @@
   },
   {
     "orixa": "Iemanja",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
-  },
-  {
-    "orixa": "Iemanja",
     "popular": "Verbena",
     "cientifico": "Verbena officinalis",
     "medicinal": "Calmante, digestiva, emenagoga",
@@ -2301,13 +2105,6 @@
     "cientifico": "Hibiscus sabdariffa",
     "medicinal": "Diuretica, hipotensora, refrescante",
     "espiritual": "Amor, paixao, vitalidade"
-  },
-  {
-    "orixa": "Xango",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
   },
   {
     "orixa": "Xango",
@@ -2399,13 +2196,6 @@
     "cientifico": "Alchornea triplinervia",
     "medicinal": "Anti-inflamatoria, analgesica",
     "espiritual": "Autoridade, lideranca"
-  },
-  {
-    "orixa": "Xango",
-    "popular": "Nome Popular",
-    "cientifico": "Nome Cientifico",
-    "medicinal": "Propriedades Medicinais",
-    "espiritual": "Propriedades Espirituais"
   },
   {
     "orixa": "Xango",
